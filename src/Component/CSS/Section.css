@@ -1,0 +1,27 @@
+.downloadSection{
+    background: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-download{
+    width: 100px;
+    height: 100px;
+}
+.text1{
+    font-size: 30px;   
+     color: black; 
+}
+.text2{
+     color: black; 
+     font-size: 10px; 
+}
+.btn-holder{
+    width: 85px;
+    background: #000;
+    border-radius: 5px;
+
+}

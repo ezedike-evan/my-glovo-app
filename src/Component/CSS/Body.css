@@ -1,0 +1,40 @@
+.bodyContainer{
+    background: rgb(193, 226, 217);
+    color: #000;
+     display: flex;
+     flex-direction: column;
+    gap: 50px;
+}
+.bodyTitle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.bodyHolder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+}
+.bodyWrapper{
+       display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bodyWrapper img{
+       width: 100px;
+    height: 100px;
+    background: gray;
+    border-radius: 50px;
+}
+.bodyTitles{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px; 
+}
+.bodyWrapper button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    background: green;
+}

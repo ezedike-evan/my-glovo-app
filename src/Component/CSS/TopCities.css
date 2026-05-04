@@ -1,0 +1,31 @@
+.topCitiesContainer{
+    background: orange;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.topCitiesWrapper{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.topCitiesButton{
+    display: flex;justify-content: center;
+    gap: 10px;
+}
+.topCitiesButton button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background: white;
+    color: black;
+    border: 1px solid white;
+    font-size: 12px;
+}
+.browserButton{
+    width: 100px;
+     height: 30px;
+background: green;
+border: none;
+border-radius: 30px;
+}

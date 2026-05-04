@@ -1,0 +1,42 @@
+.resturantContainer{
+    color: black;
+    width: 100%;
+    background: white;
+    height: 50vh;
+
+    
+}
+
+.title1{
+    font-size: 30px;
+}
+
+.resturantHolder{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.resturant{
+    width: 200px;
+    height: 20vh;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.resturant img{
+    width: 100px;
+    height: 100px;
+    background: gray;
+    border-radius: 50px;
+}
+.resturant p{
+    margin-top: -20px;
+    background: wheat;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,47 @@
+.deliverycontainer{
+    color: black;
+    width: 100%;
+    background: white;
+    height: 50vh;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.deliveryTitle{
+    font-size: 30px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.deliVeryHolder{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+}
+.delivery{
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.delivery img{
+      width: 100px;
+    height: 100px;
+    background: gray;
+    border-radius: 50px;
+}
+.delivery .span1{
+    background: orange;
+    border-radius: 10px;
+}
+.deliverycontainer button{
+    width: 300px;
+    height: 50px;
+    font-size:20px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background: rgb(39, 116, 39);
+    border-radius: 30px;
+  
+}
