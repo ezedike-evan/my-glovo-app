@@ -13,8 +13,8 @@ const Delivery = () => {
                         <img src={deliveries.deliveryImg} alt="" />
                         <p className='deliveryTitle'>{deliveries.deliveryTitle}</p> 
                         <p className='deliveryName'>{deliveries.deliveryName}
-                        <span className='span1'>{deliveries.deliveryTag}</span>
-                        <span>{deliveries.deliveryNames}</span>
+                            <span className='span1'>{deliveries.deliveryTag}</span>
+                            <span>{deliveries.deliveryNames}</span>
                         </p>
                     </div>
                     

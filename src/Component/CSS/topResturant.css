@@ -34,7 +34,7 @@
 }
 
 @media(max-width:768px){
-.resturantHolder{
-    grid-template-columns: 1fr 1fr 1fr;
-}
+    .resturantHolder{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
