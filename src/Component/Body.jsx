@@ -6,7 +6,7 @@ const Body = () => {
   return (
     <div className='bodyContainer'>
       <div>
-        <img src= "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/hands.1b6e6913.svg" alt=""  className='img-download'/>
+        <img src= "/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/hands.1b6e6913.svg" alt=""  className='img-download'/>
         <p className='bodyTitle'>Let's do it together</p>
           </div>
         <div className='bodyHolder'>
