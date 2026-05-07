@@ -1,8 +1,6 @@
-import Category from "../Component/Category"
-
 export const topResturants = [
     {
-        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/hlwqevdvj0cfzss5gpoi.jpeg",
+        resurantImg: "jollofrice.jpeg",
         resuturantname: "the Place",
     },
     {
@@ -83,7 +81,7 @@ export const topResturants = [
 
  export const categories = [
     {
-        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/hlwqevdvj0cfzss5gpoi.jpeg",
+        resurantImg: "jollofrice.jpeg",
         resuturantname: "the Place",
         category:"breakfast"
     },
