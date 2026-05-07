@@ -1,13 +1,19 @@
 .topCitiesContainer{
     background: orange;
     color: black;
-    display: flex;
+      display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 20px;
 }
 .topCitiesWrapper{
     font-size: 30px;
     font-family:'Times New Roman', Times, serif;
+}
+.topCitiesHolder{
+    width: 100px;
+    height: 100px;
 }
 .topCitiesButton{
     display: flex;justify-content: center;

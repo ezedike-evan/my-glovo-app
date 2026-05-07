@@ -13,6 +13,9 @@
     font-size: 30px;
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
+.deliveryName{
+    font-size: 20px;
+}
 
 .deliVeryHolder{
     width: 100%; 
@@ -27,10 +30,8 @@
     align-items: center;
 }
 .delivery img{
-      width: 100px;
-    height: 100px;
-    background: gray;
-    border-radius: 50px;
+      width: 200px;
+    height: 150px;
 }
 .delivery .span1{
     background: orange;

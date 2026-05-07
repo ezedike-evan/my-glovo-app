@@ -1,42 +1,40 @@
 .resturantContainer{
     color: black;
-    width: 100%;
-    background: white;
-    height: 50vh;
-
-    
+    background: white; 
 }
-
 .title1{
     font-size: 30px;
 }
-
 .resturantHolder{
-    width: 100%; 
+    padding: 25px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
-
-
 .resturant{
     width: 200px;
-    height: 20vh;
      display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 .resturant img{
-    width: 100px;
-    height: 100px;
-    background: gray;
-    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
 }
 .resturant p{
     margin-top: -20px;
-    background: wheat;
-    width: 150px;
+    background: rgb(230, 187, 113);
+    width: 200px;
     display: flex;
     justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}
+
+@media(max-width:768px){
+.resturantHolder{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 }

@@ -5,7 +5,7 @@ import"../Component/CSS/Footer.css"
 const Footer = () => {
     return (
         <footer className='footerContainer'>
-            <img src= "/logo.png" alt="" className='img-download'/>
+            <img src= "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/28a67897-50c3-452e-8c24-e9d7f910dd41.svg" alt="" className='img-download'/>
             <div className='wrapper'>
                 <div>
                     <p className='boldText'>Let's do it together</p>
@@ -31,12 +31,8 @@ const Footer = () => {
                 </div>
                 <section className='legals'>
                     <div className='botton'>
-                        <button className='btn-holder'>
-                            Download in the <span>app store</span>
-                        </button>
-                        <button className='btn-holder'>
-                            get it now <span>google play</span>
-                        </button>
+                        <img src="src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/download-button-new_1.svg" alt="" />
+                        <img src="src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/download-button-new.svg" alt="" />
                     </div>
                     <div> 
                         <p>Terms and conditions</p>

@@ -1,20 +1,18 @@
 .heroContainer{
     background: orange;
-    height: 50vh;
-    width: 100%;
+    padding-top: 100px;
 }
 .heroHolder{
     display: flex;
     gap: 30px;
-        display: flex;
     justify-content: center;
 }
-
-
+.heroLogo{
+    width: 50%;
+}
 .inputHolder{
-    width: 500px;
-     display: flex;
-     gap: 30px;
+    display: flex;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
@@ -44,7 +42,6 @@
     justify-content: space-between;
     padding: 5px;
     align-items: center;
-    position: fixed;
 }
 .thirdInput input{
     background: white;
@@ -62,4 +59,9 @@
     align-items: center;
     color: green;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media(max-width:768px){
+    .heroHolder{
+        gap: 15px;
+    }
 }

@@ -22,9 +22,8 @@
     align-items: center;
 }
 .bodyWrapper img{
-       width: 100px;
-    height: 100px;
-    background: gray;
+       width: 250px;
+    height: 200px;
     border-radius: 50px;
 }
 .bodyTitles{
