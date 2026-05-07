@@ -1,6 +1,7 @@
 .heroContainer{
     background: orange;
     padding-top: 100px;
+    padding: 20px;
 }
 .heroHolder{
     display: flex;

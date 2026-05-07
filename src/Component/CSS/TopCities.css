@@ -6,6 +6,7 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    padding: 20px;
 }
 .topCitiesWrapper{
     font-size: 30px;
@@ -20,7 +21,6 @@
     gap: 10px;
 }
 .topCitiesButton button{
-    width: 100px;
     height: 30px;
     border-radius: 30px;
     background: white;
@@ -29,7 +29,6 @@
     font-size: 12px;
 }
 .browserButton{
-    width: 100px;
      height: 30px;
 background: green;
 border: none;

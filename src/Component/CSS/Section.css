@@ -1,10 +1,15 @@
 .downloadSection{
     background: white;
-    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    padding: 20px;
+}
+.downloadHolder{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .img-download{
@@ -27,5 +32,5 @@
 
 }
 .phoneImg{
-    width: 500px;
+    width: 50%;
 }
