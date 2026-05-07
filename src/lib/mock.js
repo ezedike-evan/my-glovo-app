@@ -1,3 +1,5 @@
+import Category from "../Component/Category"
+
 export const topResturants = [
     {
         resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/hlwqevdvj0cfzss5gpoi.jpeg",
@@ -32,7 +34,6 @@ export const topResturants = [
         resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/cg4sdskoaecoxhp7lhkt.jpeg",
         resuturantname: "Debonairs pizza",
     }
-
 ]
  export  const delivery =[
     {
@@ -78,3 +79,48 @@ export const topResturants = [
         bodyButton:"Register here"
     },
  ]
+
+
+ export const categories = [
+    {
+        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/hlwqevdvj0cfzss5gpoi.jpeg",
+        resuturantname: "the Place",
+        category:"breakfast"
+    },
+    {
+        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/egmjz07ibkbr9uopccsc.jpeg",
+        resuturantname: "Mama cass Resturant",
+        category:"burger"
+    },
+    
+    {
+        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/jui8atcdisz1fyj8xqif.jpeg",
+        resuturantname: "Sweet Sensation",
+        category:"healthy"
+    },
+    {
+        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/e0pcegpluhtq0akciakd.jpeg",
+        resuturantname: "Chopnownow",
+        category:"india"
+    },
+    {
+        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/o57akgxyabkgo04kjlbu.jpeg",
+        resuturantname: "KFC",
+        category:"pastery"
+    },
+    {
+        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/zdpfnwewlbzc40surjgw.jpeg",
+        resuturantname: "Fresh Kitchen Resturant",
+        category:"sushi"
+    },
+    {
+        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/cg4sdskoaecoxhp7lhkt.jpeg",
+        resuturantname: "Debonairs pizza",
+        category:"pizza"
+    },
+    {
+        resurantImg: "src/assets/glovoapp.com_b69ae758-72c1-4e02-9794-c979e2af5cbf/nem66tghxmqigr2fodaq.jpeg",
+        resuturantname: "small Chops.ng",
+        category:"Nigerian"
+    },
+]

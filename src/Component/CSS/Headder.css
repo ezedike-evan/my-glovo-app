@@ -1,6 +1,6 @@
 .headerContainer{
     background: orange;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -8,9 +8,8 @@
 }
 
 .headerHolder{
-     background:    rgb(255, 166, 0);
+    background:    rgb(255, 166, 0);
     width: 90%;
-    height: 100px;
     display: flex;
     justify-content: space-between; 
 }
@@ -22,7 +21,6 @@
 
 .glovoLogo img{
     width: 150px;
-    height: 100px;
 }
 .loginHolder{
     display: flex;

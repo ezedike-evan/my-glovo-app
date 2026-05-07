@@ -44,3 +44,12 @@ select {
     font-size: 20px;
     color: white;
 }
+.footerGlovoLogo{
+    width: 100px;
+}
+@media(max-width:425px){
+    .wrapper{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
