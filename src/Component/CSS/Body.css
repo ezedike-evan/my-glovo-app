@@ -47,4 +47,9 @@
     font-size: 20px; 
 }
 }
+@media(max-width:425px){
+  .bodyHolder{
+    grid-template-columns: 1fr;
+}  
+}
 

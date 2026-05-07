@@ -42,10 +42,16 @@
 @media(max-width:425px){
     .resturantHolder{
         grid-template-columns: 1fr 1fr;
+        padding: 10px 2px;
     }
+    .resturant img{
+    width: 90px;
+    height: 80px;
+}
     .resturant p{
         width: auto;
         border-radius: 5px;
         padding: 2px 5px;
     }
+    
 }

@@ -1,10 +1,11 @@
 import React from 'react'
+import"../Component/CSS/Category.css"
 
 const Category = () => {
   return (
-    <div className='topCitiesContainer'>
-      <p className='topCitiesWrapper'>Top categories</p>
-      <div className='topCitiesButton'>
+    <div className='categoryContainer'>
+      <p className='categoryWrapper'>Top categories</p>
+      <div className='categoryButton'>
         <button>Breakfast</button>
         <button>Burgers</button>
         <button>Healthy</button>
@@ -15,7 +16,7 @@ const Category = () => {
         <button>suchi</button>
       </div>
       <div>
-      <button className='browserButton'>All categories</button>
+      <button className='categoryBrowserButton'>All categories</button>
     </div>
     </div>
   )
